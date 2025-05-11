@@ -1,0 +1,382 @@
+nav {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0% 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-bottom: 0%;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.50s ease;
+
+}
+
+nav ul li a:hover {
+    color: rgb(135, 135, 161);
+}
+
+nav img{
+    width: 50px;
+    height: 50px;
+}
+
+nav h1 {
+    font-size: 24px;
+    position: absolute;
+    margin-left: 55px;
+
+}
+
+#hero {
+    background-image: url("images/hero-image.jpeg");
+    background-size: cover;
+    height: 100vh;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+#hero p {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 0%;
+}
+
+#hero a {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+}
+
+#hero button {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#hero button:hover {
+    background-color: rgb(135, 135, 161);
+}
+
+.hover-items {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.menu:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.locations:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.locations img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    
+}
+
+.order:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.order img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.order p {
+    color: black;
+    text-align: center;
+}
+
+#about {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 20px;
+    text-align: center;
+    height: 20vh;
+}
+
+.reviews {
+    background-color: rgb(8, 7, 41);
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.reviewers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    padding: 0px;
+    border-radius: 20px;
+    width: 900px;
+    height: 200px;
+    background-color: rosybrown;
+    font-size: small;
+    position: relative;
+    bottom: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.reviewers:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reviewers img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.reviewers p {
+    color: black;
+    margin: 0%;
+}
+
+.reviewers h3 {
+    color: black;
+    margin: 0%;
+}
+
+#products {
+    background-color: rgb(255, 255, 255);
+    padding: 50px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    padding: 0%;
+    margin-bottom: 0px;
+}
+
+.products-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 990px;
+}
+
+#products img{
+    width: 510px;
+    height: 600px;
+    object-fit: cover;
+    margin: 0%;
+    padding: 0%;
+}
+
+.burgers{
+    margin-top: 230px;
+}
+
+.sides{
+    margin-top: 230px;
+}
+
+.pizza{
+    margin-top: 230px;
+}
+
+.product1{
+    display: flex;
+    flex-direction: row;
+}
+
+.product2{
+    display: flex;
+    flex-direction: row;
+}
+
+.product3{
+    display: flex;
+    flex-direction: row;
+}
+
+.scrolling-text-wrapper {
+    width: 1000px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 60PX;
+    position: relative;
+    bottom: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .scrolling-text {
+    display: flex;
+    padding-left: 100%;
+    animation: scroll-left 100s linear infinite;
+    
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+.contact-container {
+    background-color: rgb(221, 188, 183);
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    
+}
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    background-color: #da9a9a;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    width: 500px;
+    margin: 50px auto;
+    border-radius: 12px;
+  }
+
+  .Form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+  }
+
+  input, textarea {
+    margin-bottom: 20px;
+    padding: 10px 12px;
+    border: 1px solid #daa8a8;
+    border-radius: 8px;
+    font-size: 16px;
+    resize: vertical;
+  }
+
+  button {
+    padding: 12px 20px;
+    background-color: #660b0b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+  }
+
+  button:hover {
+    background-color: #a04545;
+  }
+
+  @media (max-width: 600px) {
+    .contact {
+      padding: 20px;
+      margin: 20px;
+    }
+  }
